@@ -1,0 +1,238 @@
+body{
+ 
+     
+   margin: 20px;
+   padding: 10px;
+    
+    background: #111111;
+    
+}
+ 
+h2{
+     
+width: conainer;
+ 
+ padding: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+border: 1px solid #808080;
+ 
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+border-radius: 10px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 25px;
+    width: 100%;
+
+
+}
+.left-side {
+   
+    background: #111111;
+     
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-family: 'Inter';
+font-style:initial;
+text-transform: uppercase;
+
+color: #FFFFFF;
+ 
+}
+.right-side{
+    border: 1px solid #808080;
+    background-color: #111111;
+    width: 100%;
+    box-shadow: 4px 5px 6px #5e5e5e
+    
+}
+.left-side img{
+width: 100px;
+height: 120px;
+border: #111111;
+border-radius: 50%;
+}
+.item1{
+    
+    display: flex;
+    flex-flow:  column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+border: 1px solid #808080;
+ padding: 0px;
+ margin: 0px;
+border-radius: 20px;
+letter-spacing: 5px;
+box-shadow: 4px 5px 6px #5e5e5e;
+}
+.item1 span{
+    color: rgba(255, 255, 255, 0.774);
+}
+.item2, .item3{
+  
+    
+    display: flex;
+    flex-flow:  column nowrap;
+    justify-content: space-evenly;
+  font-size: 16px !important;
+    width: 100%;
+    height: 250px;
+border: 1px solid #808080;
+ padding: 0px;
+ margin: 0px;
+border-radius: 20px;
+letter-spacing: 1px;
+color:rgba(243, 241, 241, 0.938);
+text-align: left;
+box-shadow: 4px 5px 6px #5e5e5e;
+}
+ul{
+    margin: 0px;
+     padding-left: 35px;
+}
+ .item3 img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0px;
+    margin-left: 4px;
+ }
+ .item3 span{
+    margin: 20px;
+ }
+ .item3 a{
+    text-decoration: none;
+    color: #808080;
+     
+
+ }
+ .item3 a:hover{
+color: #FFFFFF;
+box-shadow: 4px 5px 6px #5e5e5e
+ }
+ .item3 div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 11px;
+    margin-left: 14px;
+ }
+ .right-side{
+    color: white;
+ }
+ .right-side .heading{
+  
+ 
+    font-size: 27px;
+  margin-left:10px;
+   padding-left: 10pt;
+  margin-top: 10px;
+
+ }
+  table{
+    margin: 20px;
+    text-transform: uppercase;
+ text-align: center;
+     
+  }
+  table th{
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  @media screen and (max-width: 640px) {
+    .container1 {
+        display: flex;
+        flex-flow: column nowrap;
+  
+    }
+  }
+   
+  .container {
+   
+    margin-left: 30px;
+    
+  }
+    
